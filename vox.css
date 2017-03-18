@@ -1,0 +1,61 @@
+body{
+font-family:  'lucia granda'  ,  tahoma,  verdana,  arian,  sans-serif;
+background-color:#000000;
+}
+
+#container{
+width:1080px;
+margin: 0 auto;
+padding:1px;
+background-color:#F0E8AC;
+} 
+
+#navigation{
+height:60px;
+border:3px solid #F5F4EC;
+margin-top:5px;
+background-image: url (../images/background_pict.png);
+}
+
+ul#navmenu{
+list-style-type:none;
+font-size:20px;
+}
+
+ul#navmenu li {
+width:200px;
+text-align:center;
+float:left;
+margine-right:4px
+}
+ul#navmenu a {
+text-decoration:none;
+display: block;
+width: 180px;
+height: 25px;
+background-color:#fff;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+#banner{
+height:295px;
+background-image:url(../images/shop_banner.jpg);
+background-size:cover;
+
+}
+#content_area{
+float:left;
+width:750px;
+margin:20px 0 20px 0;
+padding: 10px;
+border: 3px solid #e3e3e3;
+color:white;
+}
+
+#sidebare{
+height:100px;
+background-image:url(../images/fried_rice.jpg);
+background-size:cover;
+
+}
